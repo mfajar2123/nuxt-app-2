@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content"],
 
   content: {
-    // Tambahkan opsi di sini jika perlu
+    // optional: konfigurasi tambahan
+    documentDriven: true,
   },
 });
